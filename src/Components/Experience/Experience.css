@@ -1,0 +1,240 @@
+.experience{
+    text-align: center;
+}
+
+.experience h1{
+    font-weight: 500;
+    font-size: 105px;
+    line-height: 121px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 345px auto 0px;
+    max-width: 1191px;
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.experience h1::before{
+    content: '';
+    position: absolute;
+    top: -36%;
+    background: url(./img/main-heart.svg) no-repeat;
+    background-size: 100%;
+    width: 53%;
+    height: 100%;
+    z-index: -1;
+    left: 21%;
+}
+
+.experience-advantages{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: -43px auto 0px;
+}
+
+.experience-advantages__item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.experience-advantages__img{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 43px;
+}
+
+.experience-advantages__description{
+    font-size: 23px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    max-width: 300px;
+}
+
+.experience-btn{
+    margin: 127px auto 0px;
+}
+
+.experience-btn__call{
+    background: #FFCC00;
+    box-shadow: 0px 10px 30px rgba(255, 204, 0, 0.2);
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #111111;
+    padding: 33px 62px;
+    font-weight: 600;
+    width: 385px;
+    display: inline-block;
+    outline: none;
+    transition: 0.3s;
+}
+
+.experience-btn__call:hover{
+    box-shadow: none;
+    font-weight: 700;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.experience-btn__addition{
+    color: #9AA8AD;
+    font-size: 21px;
+    font-weight: 500;
+    margin: 42px auto 0px;
+    display: block;
+    position: relative;
+}
+
+.experience-btn__addition::after{
+    content: '';
+    position: absolute;
+    bottom: -4%;
+    background: url(./img/adven-arrow.svg) no-repeat;
+    background-size: 100%;
+    width: 12px;
+    height: 220px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+    top: 66px;
+}
+
+.experience .viollet-blur{
+    background: url(./img/exp-vb.png) no-repeat;
+    background-size: 100%;
+    width: 627px;
+    height: 700px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+@media(max-width: 1770px){
+    .experience h1{
+        max-width: 800px;
+        margin-top: 180px;
+        font-size: 70px;
+        line-height: 100px;
+        padding-bottom: 200px;
+    }
+    .experience h1::before {
+        top: -13%;
+        width: 45%;
+        left: 24%;
+        padding-bottom: 200px;
+    }
+    .experience-advantages__img {
+        width: 49px;
+        margin-bottom: 15px;
+    }
+    .experience-advantages__description{
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 200px;
+    }
+    .experience-btn{
+       margin-top: 80px;
+    }
+    .experience-btn__call{
+        font-size: 16px;
+        line-height: 20px;
+        padding: 21px 24px;
+        width: 255px;
+    }
+    .experience-btn__addition{
+        font-size: 14px;
+        margin: 20px auto 0px;
+    }
+    .experience-btn__addition::after {
+        width: 8px;
+        height: 80px;
+        top: 46px;
+    }
+    .experience-advantages {
+        max-width: unset;
+        width: 85%;
+    }
+    .experience-btn__call:hover {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .experience h1 {
+        font-size: 46px;
+        line-height: 76px;
+        padding-bottom: 110px;
+    }
+    .experience-advantages__img {
+        width: 30px;
+        margin-bottom: 0px;
+    }
+    .experience .viollet-blur{
+        width: 400px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .experience h1{
+        font-size: 25px;
+        line-height: 30px;
+        max-width: 300px;
+        margin-top: 300px;
+    }
+    .experience h1::before {
+        top: -133%;
+        width: 70%;
+        left: 14%;
+        padding-bottom: 200px;
+    }
+    .experience .viollet-blur{
+        width: 300px;
+        height: 500px;
+    }
+    .experience-advantages{
+        flex-direction: column;
+        margin-top: -63px;
+    }
+    .experience-advantages__description{
+        margin: 0 auto;
+    }
+    .experience h1::before {
+        top: -136%;
+        width: 80%;
+        left: 10%;
+        padding-bottom: 58px;
+    }
+    .experience h1 {
+        font-size: 25px;
+        line-height: 30px;
+        max-width: 300px;
+        margin-top: 289px;
+    }
+    .experience-advantages__img {
+        width: 50px;
+        margin-bottom: 18px;
+    }
+    .experience-advantages__item{
+        margin-bottom: 30px;
+    }
+    .experience-btn {
+        margin-top: 29px;
+    }
+    .experience-btn__call{
+        width: 280px;
+    }
+    .experience-btn__addition{
+        margin-top: 28px;
+    }
+    .container {
+        max-width: unset;
+        width: 88%;
+    }
+}

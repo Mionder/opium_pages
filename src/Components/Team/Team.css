@@ -1,0 +1,134 @@
+.team {
+    text-align: center;
+}
+
+.team-header{
+    font-weight: 500;
+    font-size: 105px;
+    line-height: 126px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 345px auto 0px;
+    max-width: 1191px;
+    position: relative;
+    padding-bottom: 600px;
+}
+
+.team-header::before {
+    content: '';
+    position: absolute;
+    top: -38%;
+    background: url(./img/team.png) no-repeat;
+    background-size: 100%;
+    width: 82%;
+    height: 100%;
+    z-index: -1;
+    left: 9%;
+}
+
+.team-experience-advantages{
+    margin-top: -190px;
+    max-width: 1220px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.team-blur__blue{
+    background: url(./img/asin.png) no-repeat;
+    background-size: 100%;
+    width: 702px;
+    height: 1300px;
+    position: absolute;
+    top: 31px;
+    left: 0px;
+}
+
+.team-blur-viollet{
+    background: url(./img/company-2.png) no-repeat;
+    background-size: 100%;
+    width: 702px;
+    height: 1300px;
+    position: absolute;
+    top: 45%;
+    right: 0px;
+}
+
+@media(max-width: 1770px){
+    .team-header{
+        font-weight: 500;
+        font-size: 70px;
+        line-height: 85px;
+        max-width: 900px;
+        padding-bottom: 400px;
+    }
+    .team-header::before{
+        top: -27%;
+        width: 65%;
+    }
+    .team-experience-advantages{
+        width: 60%;
+        margin: -80px auto 0px;
+    }
+    .team-header{
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .team-experience-advantages{
+        width: 85%;
+    }
+    .team-header{
+        margin: 145px auto 0px;
+        font-size: 48px;
+        line-height: 58px;
+        max-width: 600px;
+        padding-bottom: 200px;
+    }
+    .team-header::before{
+        top: -23%;
+        width: 50%;
+        left: 21%;
+    }
+    .team-blur-viollet,
+    .team-blur__blue{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 580px){
+    .team-header{
+        font-size: 30px;
+        line-height: 34px;
+        max-width: 400px;
+    }
+    .team-experience-advantages{
+        padding-bottom: 51px;
+    }
+    .team-experience-advantages .experience-advantages__img {
+        width:50px;
+        margin-bottom:25px;
+    }
+    .team-experience-advantages  .experience-advantages__item {
+        margin-bottom: 30px;
+    }
+    .team-header::before {
+        top: -94%;
+        width: 100%;
+        left: 1%;
+    }
+    .team-header {
+        margin-top: 300px;
+        max-width: 275px;
+    }
+    .team-experience-advantages{
+        margin-top: -177px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .team-header{
+        font-size: 25px;
+        line-height: 30px;
+    }
+}

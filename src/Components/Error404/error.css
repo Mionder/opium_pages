@@ -1,0 +1,123 @@
+
+.error404{
+    position: relative;
+}
+
+.error404_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.error404_block{
+    position: relative;
+}
+
+.error_label{
+    color: #5B24B3;
+    font-weight: 900;
+    font-size: 240px;
+    line-height: 293px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: Montserrat;
+}
+
+.brain_img{
+    position: absolute;
+    width: 273px;
+    height: auto;
+    left: 135px;
+    bottom: 70px;
+}
+
+.error_subtitle{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 33px;
+}
+
+.error_button{
+    background: #FFCC00;
+    box-shadow: 0px 10px 3rgba(184, 168, 107, 0.2);
+    width: 255px;
+    padding: 21px 10px 21px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: #111111;
+    cursor: pointer;
+    height: 62px;
+    transition: 0.3s;
+}
+
+.error_button:hover{
+    font-weight: 700;
+    box-shadow: none;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.error404-blue-blur{
+    background: url(/static/media/company.3433ef51.png) no-repeat;
+    background-size: auto;
+    background-size: 100%;
+    width: 430px;
+    height: 1000px;
+    position: absolute;
+    top: 210px;
+    left: 0px;
+}
+
+.error404-viollet-blur{
+    background: url(/static/media/company-2.cf0b68d8.png) no-repeat;
+    background-size: auto;
+    background-size: 100%;
+    width: 430px;
+    height: 1000px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+@media screen and (max-width: 525px){
+    .error_label{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 120px;
+        line-height: 146px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+    .brain_img{
+        width: 141px;
+        height: auto;
+        left: 65px;
+        bottom: 35px;
+    }
+    .error404-viollet-blur, .error404-blue-blur {
+        width: 300px;
+        height: 660px;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .error_subtitle{
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

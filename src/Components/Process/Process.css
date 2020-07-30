@@ -1,0 +1,436 @@
+.process{
+    padding-top: 152px;
+}
+
+.process-header{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 61px;
+    color: #111111;
+    letter-spacing: 3px;
+    margin-bottom: 87px;
+}
+.process-wrap{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 85px;
+}
+
+.process-bottom{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: none;
+    padding: 61px 85px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.process-wrap,
+.process-bottom{
+    background: rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    backdrop-filter: blur(60px);
+    z-index: 99999;
+}
+
+.process-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 77px;
+}
+
+.process-block__item{
+    width: 30%;
+}
+
+.process-block__number{
+    font-size: 28px;
+    line-height: 22px;
+    color: #5B24B3;
+    font-weight: 600;
+}
+
+.process-block__name{
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 24px;
+    color: #111111;
+    margin: 44px 0px 34px;
+    letter-spacing: 0.3px;
+}
+
+.process-block__description{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 33px;
+    color: rgba(44, 58, 92, 0.79);
+    max-width: 415px;
+}
+
+.process-part{
+    font-weight: 600;
+    font-size: 73px;
+    line-height: 61px;
+    color: #5B24B3;
+}
+
+.process-bottom__deliverables{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 150%;
+    color: #111111;
+    font-size: 38px;
+    margin-bottom: 100px;
+}
+
+.process-bottom__download{
+    font-size: 22px;
+    color: #5B24B3;
+}
+
+.process-bottom__left{
+    width: 30%;
+}
+
+.process-bottom__right{
+    width: 65%;
+}
+
+.process-bottom__des{
+    font-size: 24px;
+    line-height: 32px;
+    color: #111111;
+    margin-top: 10px;
+    max-width: 800px;
+    font-weight: 500;
+}
+
+.process-bottom__items{
+    display: flex;
+    justify-content: space-between;
+    max-width: 680px;
+    margin-top: 80px;
+}
+
+.process-bottom__item{
+    display: flex;
+    min-width: 230px;
+}
+
+.process-bottom__item_img{
+    width: 40px;
+    margin-right: 15px;
+    transform: translateY(-7px);
+}
+
+.process-bottom__item_des{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.process-bottom__download-img{
+    width: 30px;
+    height: 30px;
+    margin-right:15px;
+}
+
+.process{
+    position: relative;
+}
+
+.process .viollet-blur{
+    background: url(./img/company-2.png) no-repeat;
+    background-size: 100%;
+    width: 627px;
+    height: 1300px;
+    position: absolute;
+    top: -300px;
+    right: 0px;
+}
+
+.process .blue-blur{
+    background: url(./img/company.png) no-repeat;
+    background-size: 100%;
+    width: 702px;
+    height: 1300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.process-block__more{
+    color: #0066FF;
+    font-size: 24px;
+    padding-top: 31px;
+    display: inline-block;
+    z-index: 99999;
+    position: relative;
+}
+
+.process-block__more:hover{
+    color: #1b5bbb;
+    transition: 0.3s;
+}
+.process-block__more::after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 37px;
+    width: 98px;
+    height: 1px;
+    background-color: #0066FF;
+    right: 0;
+    margin: 0 auto;
+  }
+
+.process-block__more img{
+    margin-right: 15px;
+    width: 45px;
+}
+
+.process-wrap-sec{
+    padding-bottom: 40px;
+}
+
+.process-wrap-last{
+    position: relative;
+}
+
+.process-wrap-last .process-block__item {
+    width: 47%;
+}
+
+.process-blur{
+    background: url(./img/roles-center.png) center no-repeat;
+    background-size: 100%;
+    width: 47%;
+    height: 1300px;
+    position: absolute;
+    bottom: -21%;
+    left: 26%;
+    z-index: -1;
+}
+
+.process .orange-blur{
+    background: url(./img/process-or-b.png) center no-repeat;
+    background-size: 100%;
+    width: 47%;
+    height: 1300px;
+    position: absolute;
+    bottom: 16%;
+    right: 0%;
+}
+
+.process-heart{
+    width: 39%;
+    transform: translate(0px, -213px);
+    z-index: -1;
+    position: absolute;
+    right: 26%;
+}
+
+.process-bottom__download_mob{
+    display: none;
+}
+
+
+@media(max-width: 1770px){
+    .process {
+        padding-top: 85px;
+    }
+    .process-header{
+        margin-bottom: 45px;
+    }
+    .process-header, .process-part {
+        font-size: 50px;
+        line-height: 61px;
+        letter-spacing: 0px;
+    }
+    .process-block{
+        margin-top: 45px;
+    }
+    .process-block__name{
+        font-size: 20px;
+        line-height: 24px;
+        margin: 24px 0px;
+    }
+    .process-block__description{
+        font-size: 14px;
+        line-height: 22px;
+        max-width: 280px;
+    }
+    .process-wrap{
+        padding: 60px;
+    }
+    .process-bottom__deliverables{
+        font-size: 25px;
+        margin-bottom: 70px;
+    }
+    .process-bottom__download {
+        font-size: 16px;
+    }
+    .process-bottom{    
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .process-bottom__download-img{
+        width: 18px;
+        margin-right: 5px;
+    }
+    .process-bottom__item_des{
+        font-size: 16px;
+    }
+    .process-bottom__des{
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 500px;
+    }
+    .process-bottom__item_img {
+        width: 25px;
+    }
+    .process-bottom__items{
+        max-width: 400px;
+    }
+    .process-bottom__item{
+        min-width: 160px;
+    }
+    .process-block__more{
+        font-size: 16px;
+    }
+    .process-block__more img {
+        margin-right: 5px;
+        width: 30px;
+    }
+    .process-heart {
+        width: 30%;
+        transform: translate(0px, -120px);
+        right: 35%;
+    }    
+}
+
+@media screen and (max-width: 1140px){
+    .process-heart{
+        transform: translate(0px, -80px);
+    }
+}
+
+
+@media screen and (max-width: 880px){
+    .process-bottom__download_des{
+        display: none;
+    }
+    .process-wrap, 
+    .process-bottom{
+        padding: 40px 40px 60px;
+    }
+    .process-header, .process-part {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .process-block__number {
+        font-size: 18px;
+    }
+    .process-block__item{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .process-block__description,
+    .process-bottom__des{
+        max-width: unset;
+    }
+    .process-block,
+    .process-bottom{
+        flex-direction: column;
+    }
+    .process-bottom__right{
+        width: 100%;
+    }
+    .process-bottom__deliverables{
+        margin-bottom: 20px;
+    }
+    .process-bottom__item {
+        min-width: unset;
+    }
+    .process .blue-blur,
+    .process .orange-blur,
+    .process .viollet-blur{
+        width: 400px;
+        height: 700px;
+    }
+    .process-heart {
+        width: 45%;
+        right: 29%;
+    }
+    .process-wrap-last .process-block__item{
+        width: 100%;
+    }
+    .process-bottom__download_mob{
+        display: block;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .process-blur{
+        display: none;
+    }
+    .process-heart {
+        transform: translate(0px, -54px);
+    }
+    .process-block{
+        margin-top: 0px;
+    }
+    .process-bottom__items{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .process-bottom__item{
+        margin-bottom: 20px;
+    }
+    .process-bottom__download_mob{
+        margin-top: 0px;
+    }
+    .process-header {
+        font-size: 25px;
+        margin-bottom: 4px;
+    }
+    .process-part{
+        margin-bottom: 28px;
+        font-size: 25px;
+    }
+    .process {
+        padding-top: 54px;
+    }
+     .process-wrap {
+        padding: 7px 14px 38px;
+    }
+    .process-bottom {
+        padding: 34px 17px 30px;
+        margin-bottom: 20px;
+    }
+    .process-bottom__des{
+        margin-top: 3px;
+    }
+    .process-block__name{
+        margin: 20px 0px;
+    }
+    .process-block__item{
+        margin-bottom: 23px;
+    }
+    .process .blue-blur,
+    .process .viollet-blur{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .process-heart {
+        width: 65%;
+        right: 15%;
+    }
+    .process-part {
+        font-size: 22px;
+    }
+    .process-block__description, .process-bottom__des {
+        max-width: 225px;
+    }
+}

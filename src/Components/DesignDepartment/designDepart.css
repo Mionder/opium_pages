@@ -1,0 +1,116 @@
+.design-department{
+    background: url(./img/design-dep.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: 0% 35%;
+}
+
+.desing-department_title{
+    font-weight: 900;
+    font-size: 105px;
+    line-height: 150px;
+    letter-spacing: 0.03em; 
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 3px #111111;
+    padding: 430px 0px 391px;
+    position: relative;
+}
+
+.desing-department_title::before{
+    content: '';
+    position: absolute;
+    top: 24%;
+    left: 19%;
+    background: url(./img/design-circle.png) no-repeat;
+    background-size: 100%;
+    width: 28%;
+    height: 100%;
+    z-index: -1;
+}
+
+.desing-department_subtitle{
+    color: #000000;
+    position: relative;
+    text-align: center;
+}
+
+.desing-department_subtitle::before{
+    content: '';
+    position: absolute;
+    top: -4%;
+    background: url(./img/up.png) no-repeat;
+    background-size: 100%;
+    width: 1284px;
+    height: 100%;
+}
+
+.desing-department_subtitle::after{
+    content: '';
+    position: absolute;
+    bottom: -4%;
+    background: url(./img/down.png) no-repeat;
+    background-size: 100%;
+    width: 1284px;
+    height: 100%;
+    bottom: -122px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+@media(max-width: 1770px){
+    .desing-department_title{
+        font-size: 70px;
+        line-height: 100px;
+        padding: 252px 0px 380px;
+    }
+    .desing-department_subtitle::before {
+        top: -7%;
+        width: 855px;
+    }
+    .desing-department_subtitle::after{
+        width: 855px;
+        bottom: -82px;
+    }
+    .container{
+        max-width: unset;
+        width: 85%;
+    }
+}
+@media screen and (max-width: 880px){
+    .desing-department_title {
+        font-size: 46px;
+        line-height: 76px;
+    }
+    .desing-department_subtitle::before {
+        top: -2%;
+        width: 563px;
+    }
+    .desing-department_subtitle::after {
+        width: 563px;
+        bottom: -62px;
+    }
+    .design-department{
+        background-position: 15%;
+   }
+   .desing-department_subtitle::before,
+    .desing-department_subtitle::after{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .desing-department_title{
+        padding: 130px 0px 100px;
+    }
+    .desing-department_title::before{
+        width: 45%;
+        left: 8%;
+    }
+    .desing-department_title {
+        font-size: 37px;
+        line-height: 54px;
+    }
+}

@@ -1,0 +1,331 @@
+.profile{
+    padding: 145px 0px 0px;
+}
+
+.profile-block{
+    background: #1161D9;
+    backdrop-filter: blur(4px);
+    color: #fff;
+    padding: 23px 0px 93px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-block__info{
+    padding-top: 97px;
+    width: 37%;
+}
+
+.profile-block__be{
+    position: relative;
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.profile-block__be::before{
+    content: '';
+    position: absolute;
+    top: 3%;
+    background: url(./img/be.svg) no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 100%;
+    left: 12%;
+}
+
+.profile-block__more{
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 47px;
+    max-width: 437px;
+}
+
+.profile-block__link{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #1161D9;
+    padding: 38px 0px;
+    width: 480px;
+    margin-top: 48px;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 600;
+    height: 100px;
+    transition: 0.3s;
+}
+
+.profile-block__photo img{
+    position: relative;
+}
+
+.profile-block__photo_first{
+    top: 50px;
+    left: 230px;
+    z-index: 5;
+    width: 48%;
+}
+
+.profile-block__photo_second{
+    left: 50px;
+    top: 50px;
+    z-index: 2;
+    width: 25%;
+}
+
+.profile-block__photo_third{
+    left: -108px;
+    z-index: 1;
+    top: 47px;
+    width: 20%;
+}
+
+.profile-block__photo{
+    width: 95%;
+}
+
+.profile-block__link:hover{
+    font-weight: 700;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.profile {
+    position: relative;
+}
+
+.profile .blue-blur
+{
+    background: url(./img/clients-bb2.png) no-repeat;
+    background-size: 100%;
+    width: 702px;
+    height: 1300px;
+    position: absolute;
+    top: -350px;
+    right: 0px;
+}
+
+.profile-block__link_mob{
+    display: none;
+}
+
+.profile::after{
+    content: '';
+    position: absolute;
+    /* bottom: -4%; */
+    background: url(./img/person-pr.png) no-repeat;
+    background-size: 100%;
+    width: 732px;
+    height: 100%;
+    top: 5;
+    left: 43%;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+    bottom: -86%;
+    z-index: -1;
+}
+
+@media(max-width: 1770px){
+    .profile-block__be{
+        font-size: 45px;
+    }
+    .profile-block__be::before{
+        top: 12%;
+        width: 20px;
+        left: 10%;
+    }
+    .profile-block__more {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .profile-block__link{
+        font-size: 16px;
+        height: 62px;
+        width: 353px;
+        padding: 22px 0px;
+    }
+    .profile-block__link:hover{
+        font-size: 18px;
+    }
+    .profile-block__photo_first{
+        width: 370px;
+    }
+    .profile-block__photo_first{
+        left: 125px;
+    }
+    .profile-block__photo_second {
+        left: -18px;
+        width: 200px;
+    }
+    .profile-block__photo_third {
+        left: -130px;
+    }
+    .profile::after{
+        bottom: -87%;
+        width: 532px;
+    }
+    .profile-block{
+        padding-left: 60px;
+    }
+}
+
+@media(max-width: 1340px){
+    .profile-block__photo_first {
+        width: 45%;
+        left: 86px;
+    }
+    .profile-block__photo_second {
+        left: -37px;
+        width: 166px;
+    }
+    .profile-block__photo_third {
+        left: -114px;
+    }
+    .profile-block__photo{
+       margin-top: 60px;
+    }
+    .profile-block__info{
+        width: 32%;
+    }
+    .profile-block__photo {
+        width: 63%;
+    }
+}
+
+@media screen and (max-width: 1140px){
+    .profile-block__link{
+        display: none;
+    }
+    .profile-block{
+        flex-direction: column;
+    }
+    .profile-block__info {
+        width: 100%;
+    }
+    .profile-block__more{
+        max-width: 600px;
+    }
+    .profile-block__photo {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .profile-block__photo_first{
+        left: 0px;
+    }
+    .profile-block__photo_second {
+        left: -95px;
+    }
+    .profile-block__photo_third {
+        left: -179px;
+        width: 17%;
+    }
+    .profile-block__be::before{
+        left: 5.5%;
+    }
+    .profile::after {
+        bottom: -96%;
+        width: 343px;
+    }
+    .profile-block__link_mob{
+        display: block;
+        font-size: 16px;
+        height: 62px;
+        width: 100%;
+        padding: 22px 0px;
+        display: inline-block;
+        background: #FFFFFF;
+        color: #1161D9;
+        margin-top: 80px;
+        text-align: center;
+        font-weight: 600;
+        transition: 0.3s;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .profile-block__photo_second{
+        width: 127px;
+    }
+    .profile-block__photo_first {
+        left: -10px;
+    }
+    .profile-block__photo_third {
+        left: -153px;
+    }
+    .profile-block__be::before {
+        left: 8.7%;
+    }
+    .profile-block__link,
+    .process-bottom__download_des{
+        display: none;
+    }
+    .profile-block__photo{
+        margin-top: 0px;
+    }
+    .profile-block__info{
+        padding-top: 20px;
+    }
+    .profile-block{
+        padding: 40px 40px 60px;
+    }
+    .profile::after{
+        width: 300px;
+    }
+    .profile .blue-blur{
+        width: 400px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .profile .blue-blur{
+        width: 300px;
+        height: 500px;
+    }
+    .profile::after {
+        width: 220px;
+    }
+    .profile-block__be::before {
+        left: 14.7%;
+    }
+    .profile{
+        padding-top: 127px;
+    }
+    .profile-block__photo_second {
+        left: -60px;
+        width: 29%;
+        top: 27px;
+    }
+    .profile-block__photo_first {
+        left: -7px;
+        width: 51%;
+        top: 23px;
+    }
+    .profile-block__photo_third {
+        left: -82px;
+        width: 17%;
+        top: 25px;
+    }
+    .profile-block__link_mob{
+        margin-top: 60px;
+    }
+    .profile .container,.discuss .container{
+        width: 100%;
+    }
+    .profile-block{
+        padding: 15px 20px 49px;
+    }
+    .profile-block__more{
+        margin-top: 30px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .profile::after {
+        width: 65%;
+        left: 33%;
+        bottom: -96%;
+    }
+}

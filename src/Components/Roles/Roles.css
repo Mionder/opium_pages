@@ -1,0 +1,145 @@
+.roles{
+    position: relative;
+}
+
+.roles-blur{
+    background: url(./img/pr-vl.png) no-repeat;
+    background-size: 100%;
+    width: 702px;
+    height: 1300px;
+    position: absolute;
+    top: -10%;
+    left: 0px;
+}
+
+.roles-blur__blue{
+    background: url(./img/blue-bl.png) center no-repeat;
+    background-size: 100%;
+    width: 47%;
+    height: 1300px;
+    position: absolute;
+    bottom: -35%;
+    right: 0%;
+}
+
+
+.roles{
+    padding-top: 172px;
+}
+
+.roles-header{
+    font-size: 74px;
+    font-weight: 700;
+}
+
+.roles-wrap{
+    margin-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.roles-item{
+    width: 33%;
+    margin-bottom: 140px;
+}
+
+.roles-item__post{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 44px;
+}
+
+.roles-item__decs{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+}
+
+
+@media(max-width: 1770px){
+    .roles-header{
+        font-size: 50px;
+        line-height: 61px;
+    }
+    .roles-wrap {
+        margin-top: 80px;
+    }
+    .roles-item{
+        margin-bottom: 80px;
+    }
+    .roles-item__post{
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .roles-item__decs{
+        font-size: 14px;
+        line-height: 22px;
+        max-width: 260px;
+    }
+}
+
+
+@media screen and (max-width: 1140px){
+    .roles-item {
+        width: 30%;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .roles-item {
+        width: 47%;
+        margin-right: 0px;
+    }
+    .roles-wrap{
+        justify-content: space-between;
+    }
+    .roles-header {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .roles-wrap {
+        margin-top: 50px;
+    }
+    .roles-blur{
+        width: 400px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .roles-blur{
+        width: 300px;
+        height: 500px;
+    }
+    .roles {
+        padding-top: 100px;
+    }
+    .roles-wrap{
+        flex-direction: column;
+    }
+    .roles-item{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .roles-header {
+        font-size: 28px;
+    }
+    .roles-wrap {
+        margin-top: 33px;
+    }
+    .roles-item__post{
+        margin-bottom: 24px;
+    }
+    .roles-blur{
+        top: 5%;
+    }
+    .roles-item__decs{
+        max-width: unset;
+    }
+}

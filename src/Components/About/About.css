@@ -1,0 +1,218 @@
+.about{
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.about-box{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    padding-top: 184px;
+}
+
+.about-photo{
+    width: 100%;
+}
+
+.about-photo img{
+    object-fit: cover;
+}
+
+.about-text{
+    width: 78%;
+}
+
+.about-text p{
+    font-size: 21px;
+    color: rgba(44, 58, 92, 0.79);
+    line-height: 32px;
+    margin-bottom: 36px;
+}
+
+.about-text__head{
+    font-weight: 500;
+    font-size: 74px;
+    line-height: 71px;
+    margin-bottom: 46px;
+}
+
+
+.about-text__name{
+    font-size: 29px;
+    padding-top: 26px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.about-text__founder{
+    font-size: 21px;
+    color: rgba(44, 58, 92, 0.79);
+}
+
+.about-lg{
+    position: absolute;
+    top: -10%;
+    right: 0px;
+    width: 32%;
+    z-index: -1;
+}
+
+.about-blue__viollet{
+    background: url(./img/company-3.png) no-repeat;
+    background-size: 100%;
+    width: 702px;
+    height: 1300px;
+    position: absolute;
+    bottom: -35%;
+    left: 0px;
+}
+
+.about-blue__blue{
+    background: url(./img/roles-center.png) no-repeat;
+    background-size: 100%;
+    width: 50%;
+    height: 1300px;
+    position: absolute;
+    bottom: -85%;
+    right: 0px;
+}
+
+@media(max-width: 1770px){
+    .about-box{
+        max-width: 1100px;
+    }
+    .about-photo {
+        width: 43%;
+    }
+    .about-text {
+        width: 50%;
+    }
+    .about-photo img{
+        width: 100%;
+    }
+    .about-lg {
+        top: -3%;
+        right: 2%;
+        width: 26%;
+    }
+    .about-text__head{
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 61px;
+        margin-bottom: 25px;
+    }
+    .about-text p{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 18px;
+        max-width: 400px;
+    }
+    .about-text__name{
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+    .about-text__founder{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media(max-width: 1340px){
+    .about-lg {
+        bottom: -3%;
+        top: unset;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .about-lg {
+        bottom: -10%;
+    }
+    .about-box{
+        padding-top: 70px;
+    }
+    .about-text__head{
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .about-text__name{
+        margin-bottom: 5px;
+    }
+    .about-blue__viollet,
+    .about-blue__blue{
+        width: 60%;
+    }
+    .about{
+        padding-bottom: 70px;
+    }
+    .about-blue__viollet{
+        bottom: -96%
+    }
+    .about-blue__blue{
+        bottom: -194%
+    }
+}
+
+@media screen and (max-width: 670px){
+    .about-box{
+        flex-direction: column;
+    }
+    .about-photo,
+    .about-text{
+        width: 100%;
+    }
+    .about-text p{
+        max-width: unset;
+    }
+    .about-text__head{
+        margin-top: 20px;
+    }
+    .about-blue__blue {
+       display: none;
+    }    
+    .about-lg{
+        right: unset;
+        left: 30%;
+        bottom:-6%;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .about-lg {
+        right: unset;
+        left: 33%;
+        bottom: -9%;
+        width: 40%;
+    }
+    .about{
+        margin-bottom: 80px;
+    }
+    .about-box{
+        padding-top: 0px;
+    }
+    .about-text__head{
+        margin-bottom: 2px;
+    }
+    .about-text p{
+        margin-bottom: 45px;
+    }
+    .about-text__name{
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .about-lg {
+        right: 2%;
+        left: unset;
+        bottom: -10%;
+        width: 56%;
+    }
+    .about-photo img{
+        height: 221px;
+    }
+}
