@@ -5,6 +5,15 @@
     background-position: 0% 35%;
 }
 
+.design-department h5{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 38px;
+    color: #000000;
+    padding-top: 430px;
+}
+
+
 .desing-department_title{
     font-weight: 900;
     font-size: 105px;
@@ -13,7 +22,7 @@
     text-transform: uppercase;
     color: transparent;
     -webkit-text-stroke: 3px #111111;
-    padding: 430px 0px 391px;
+    padding: 15px 0px 391px;
     position: relative;
 }
 
@@ -64,7 +73,10 @@
     .desing-department_title{
         font-size: 70px;
         line-height: 100px;
-        padding: 252px 0px 380px;
+        padding: 15px 0px 380px;
+    }
+    .design-department h5{
+        padding-top: 200px;
     }
     .desing-department_subtitle::before {
         top: -7%;
@@ -83,6 +95,10 @@
     .desing-department_title {
         font-size: 46px;
         line-height: 76px;
+        padding-top: 0px;
+    }
+    .design-department h5{
+        font-size: 22px;
     }
     .desing-department_subtitle::before {
         top: -2%;
@@ -103,7 +119,11 @@
 
 @media screen and (max-width: 580px){
     .desing-department_title{
-        padding: 130px 0px 100px;
+        padding: 0px 0px 100px;
+    }
+    
+    .design-department h5 {
+        padding-top: 100px;
     }
     .desing-department_title::before{
         width: 45%;

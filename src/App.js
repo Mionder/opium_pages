@@ -10,6 +10,7 @@ import BlogPage from "./Components/BlogPage/BlogPage";
 import TestPage from "./Components/TestPage/TestPage";
 import Contacts from "./Components/Contacts/Сontacts";
 import AboutPage from "./Components/AboutPage/AboutPage";
+import FindPage from "./Components/FindPage/FindPage";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/blog-test" component={TestPage} exact />
         <Route path="/contacts" component={Contacts} exact />
         <Route path="/about" component={AboutPage} exact />
+        <Route path="/find" component={FindPage} exact />
       </div>
     </Router>
   );

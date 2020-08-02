@@ -1,0 +1,24 @@
+.find-process-heart{
+    transform: translate(0px, -160px) rotate(60deg);
+}
+
+@media screen and (max-width: 580px){
+    .find-blur-viollet, .find-blur__blue, .find-orange-blur, .example-blur, .find-roles-blur {
+        width: 90%;
+    }
+    .process-heart {
+        width: 65%;
+        right: 15%;
+        transform: translate(0px, -104px);
+    }
+}
+
+@media screen and (max-width: 400px){
+    .roles{
+        margin-top: 40px;
+    }
+    .process-heart{
+        width: 78%;
+        transform: translate(0px, -80px);
+    }
+}

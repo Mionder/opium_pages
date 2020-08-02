@@ -145,6 +145,7 @@
     position: absolute;
     top: -300px;
     right: 0px;
+    z-index: -1;
 }
 
 .process .blue-blur{

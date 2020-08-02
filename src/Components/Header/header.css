@@ -12,6 +12,8 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 26px 0px;
+    position: relative;
+    z-index: 1;
 }
 
 .header_list{
@@ -169,10 +171,10 @@ header{
         width: 25px;
         z-index: 5;
    }
-   .header-wrap-mobile input ~ nav > .header-mob-open ul li:first-child a{
+   .header-wrap-mobile input ~ nav > .header-mob-open ul a:first-child li{
        position: relative;
    }
-   .header-wrap-mobile input ~ nav > .header-mob-open ul:last-child li:first-child a::after {
+   .header-wrap-mobile input ~ nav > .header-mob-open ul:last-child a:first-child li::after {
         content: '';
         position: absolute;
         top: -16px;
@@ -248,7 +250,9 @@ header{
    .header-mob-open img{
         max-width: 60px;
    }
-    .header-wrap-mobile input ~ nav > .header-mob-open > ul > li > a {
+    .header-wrap-mobile input ~ nav > .header-mob-open > ul > a > li,
+    .header-wrap-mobile input ~ nav > .header-mob-open > ul > li > a
+    {
         text-decoration: none;
         text-transform: uppercase;
         color: rgba(44, 58, 92, 0.5);
@@ -256,7 +260,7 @@ header{
         display: block;
         padding: 25px;
    }
-   .header-wrap-mobile input ~ nav > .header-mob-open  ul  li:first-child a{
+   .header-wrap-mobile input ~ nav > .header-mob-open  ul  a:first-child li{
         font-weight: 900;
         color: #2C3A5C;
         position: relative;
@@ -281,7 +285,7 @@ header{
 }
 
 @media screen and (max-width: 580px){
-    .header-wrap-mobile input ~ nav > .header-mob-open > ul > li > a{
+    .header-wrap-mobile input ~ nav > .header-mob-open > ul > a > li{
         padding: 18px;
     }
 

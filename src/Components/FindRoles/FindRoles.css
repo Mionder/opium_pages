@@ -1,0 +1,48 @@
+.find-blur__blue{
+    background: url(./img/clients-bb2.png) no-repeat;
+    background-size: 100%;
+    width: 35%;
+    height: 1000px;
+    position: absolute;
+    top: -15%;
+    right: 0px;
+    z-index: -1;
+}
+
+.find-blur-viollet{
+    background: url(./img/company-3.png) no-repeat;
+    background-size: 100%;
+    width: 35%;
+    height: 1100px;
+    position: absolute;
+    left: 0px;
+    top: 23%;
+    z-index: -1;
+}
+
+.find-orange-blur{
+    background: url(./img/company-2.png) no-repeat;
+    background-size: 100%;
+    width: 35%;
+    height: 1000px;
+    position: absolute;
+    bottom: -42%;
+    right: 0px;
+    z-index: -1;
+}
+.find-roles-blur{
+    background: url(./img/company-3.png) no-repeat;
+    background-size: 100%;
+    width: 35%;
+    height: 1100px;
+    position: absolute;
+    left: 0px;
+    top: 35%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 580px){
+    .find-blur-viollet, .find-blur__blue, .find-orange-blur, .example-blur, .find-roles-blur {
+        width: 90%;
+    }
+}

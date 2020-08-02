@@ -10,6 +10,7 @@ import YouTube from "./img/Vector.svg";
 import Instagram from "./img/Instagram.svg";
 import Medium from "./img/Medium.svg";
 import Habr from "./img/Habr.svg";
+import { Link } from "react-router-dom";
 
 export default class Footer extends Component{
     render(){
@@ -19,14 +20,14 @@ export default class Footer extends Component{
                         <nav className="footer-wrapper">
                         <div className="footer-left">
                             <ul className="footer_content">
-                                <li className="footer_content-link"><a href="#">Main</a></li>
-                                <li className="footer_content-link"><a href="#">About us</a></li>
-                                <li className="footer_content-link"><a href="#">Contacts</a></li>
+                               <Link to="/mainpage"> <li className="footer_content-link"><a href="#">Main</a></li></Link>
+                               <Link to="/about"><li className="footer_content-link"><a href="#">About us</a></li></Link> 
+                               <Link to="/contacts"><li className="footer_content-link"><a href="#">Contacts</a></li></Link> 
                             </ul>
                             <ul className="footer_content">
-                                <li className="footer_content-link"><a href="#">UX/UI Design</a></li>
-                                <li className="footer_content-link"><a href="#">Usability Testing</a></li>
-                                <li className="footer_content-link"><a href="#">Blog</a></li>
+                                <Link to="/"><li className="footer_content-link"><a href="#">UX/UI Design</a></li></Link>
+                                <Link to="/blog-test"><li className="footer_content-link"><a href="#">Usability Testing</a></li></Link>
+                                <Link to="/blog"><li className="footer_content-link"><a href="#">Blog</a></li></Link>
                             </ul>
                         </div>
                         <div className="footer-right">

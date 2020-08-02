@@ -1,0 +1,191 @@
+.arguments-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arguments-need{
+    border-right:2px solid #5B24B3;
+    width: 50%;
+    padding: 40px 0px
+}
+
+.arguments-dont{
+    width: 41%;
+    padding: 40px 0px
+}   
+
+.arguments h4{
+    font-weight: 500;
+    font-size: 53px;
+    line-height: 53px;
+    margin-bottom: 78px;
+}
+
+.arguments li{
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.arguments img{
+    margin-right: 24px;
+    width: 40px;
+}
+
+.arguments-dont a{
+    display: inline-block;
+    border: 2px solid #5B24B3;
+    filter: drop-shadow(0px 10px 30px rgba(255, 204, 0, 0.2));
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+    margin-top: 27px;
+    width: 391px;
+    height: 90px;
+    text-align: center;
+    padding: 27px;
+    transition: 0.3s;
+}
+
+.arguments-dont a:hover{
+    font-size: 25px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+
+.example-blur{
+    background: url(./img/clients-bb2.png) no-repeat;
+    background-size: 100%;
+    width: 35%;
+    height: 1000px;
+    position: absolute;
+    bottom: -42%;
+    right: 0px;
+    z-index: -1;
+}
+
+.find-blur__blue{
+    background: url(./img/clients-bb2.png) no-repeat;
+    background-size: 100%;
+    width: 35%;
+    height: 1000px;
+    position: absolute;
+    top: -15%;
+    right: 0px;
+    z-index: -1;
+}
+
+.find-blur-viollet{
+    background: url(./img/company-3.png) no-repeat;
+    background-size: 100%;
+    width: 35%;
+    height: 1100px;
+    position: absolute;
+    left: 0px;
+    top: 23%;
+    z-index: -1;
+}
+
+.find-orange-blur{
+    background: url(./img/company-2.png) no-repeat;
+    background-size: 100%;
+    width: 35%;
+    height: 1000px;
+    position: absolute;
+    bottom: -42%;
+    right: 0px;
+    z-index: -1;
+}
+.find-roles-blur{
+    background: url(./img/company-3.png) no-repeat;
+    background-size: 100%;
+    width: 35%;
+    height: 1100px;
+    position: absolute;
+    left: 0px;
+    top: 35%;
+    z-index: -1;
+}
+
+@media(max-width: 1770px){
+    .arguments h4{
+        font-size: 35px;
+        line-height: 43px;
+        margin-bottom: 40px;
+    }
+    .arguments li{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .arguments img{
+        width: 30px;
+    }
+    .arguments-dont a{
+        font-size: 16px;
+        width: 255px;
+        height: 62px;
+        padding: 12px;
+        z-index: 9999;
+    }
+    .arguments-dont a:hover{
+        font-size: 18px;
+        font-weight: 700;
+        transition: 0.3s;
+    }
+}
+
+@media screen and (max-width: 1140px){
+    .arguments-need{
+        padding-right: 30px;
+    }
+}
+
+
+@media screen and (max-width: 880px){
+    .arguments h4 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .arguments-box{
+        flex-direction: column;
+    }
+    .arguments-need,
+    .arguments-dont{
+        width: 100%;
+        border: none;
+        padding-bottom: 0px;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .arguments-dont a{
+        width: 100%
+    }
+    .arguments li{
+        margin-bottom: 20px;
+        line-height: 22px;
+    }
+    .find-blur-viollet,
+    .find-blur__blue,
+    .find-orange-blur,
+    .example-blur,
+    .find-roles-blur{
+        width: 90%;
+    }
+    .find-blur-viollet{
+        top: 68%;
+    }
+    .find-blur__blue{
+        top: -26%;
+    }
+}

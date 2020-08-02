@@ -1,0 +1,175 @@
+.find {
+    text-align: center;
+    position: relative;
+}
+
+.find-header{
+    font-weight: 500;
+    font-size: 105px;
+    line-height: 126px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 345px auto 0px;
+    max-width: 1191px;
+    position: relative;
+    padding-bottom: 600px;
+}
+
+.find-header::before {
+    content: '';
+    position: absolute;
+    top: -31%;
+    background: url(./img/pal.png) no-repeat;
+    background-size: 100%;
+    width: 72%;
+    height: 100%;
+    z-index: -1;
+    left: 14%;
+}
+
+.find-experience-advantages .experience-advantages__img {
+    width: 50px;
+}
+
+.find-experience-advantages {
+    margin-top: -280px;
+    max-width: 1400px;
+    padding-bottom: 0px;
+}
+
+.find-experience-advantages .experience-advantages__item{
+    width: 33%;
+    text-align: center;
+}
+
+.find-experience-advantages .experience-advantages__description{
+    margin: 0 auto;
+}
+
+.find-experience-btn {
+    margin: 68px auto 0px;
+}
+
+.find-experience-advantages {
+    width: 60%;
+    margin: -80px auto 0px;
+}
+
+.find-process-heart{
+    transform: translate(0px, -256px) rotate(55deg);
+}
+
+.find-blur__blue{
+    background: url(./img/clients-bb2.png) no-repeat;
+    background-size: 100%;
+    width: 35%;
+    height: 1000px;
+    position: absolute;
+    top: -15%;
+    right: 0px;
+    z-index: -1;
+}
+
+.find-blur-viollet{
+    background: url(./img/company-3.png) no-repeat;
+    background-size: 100%;
+    width: 35%;
+    height: 1100px;
+    position: absolute;
+    left: 0px;
+    top: 23%;
+    z-index: -1;
+}
+
+.find-orange-blur{
+    background: url(./img/company-2.png) no-repeat;
+    background-size: 100%;
+    width: 35%;
+    height: 1000px;
+    position: absolute;
+    bottom: -42%;
+    right: 0px;
+    z-index: -1;
+}
+
+.find-roles-blur{
+    background: url(./img/company-3.png) no-repeat;
+    background-size: 100%;
+    width: 35%;
+    height: 1100px;
+    position: absolute;
+    left: 0px;
+    top: 35%;
+    z-index: -1;
+}
+
+@media(max-width: 1770px){
+    .find-header{
+        max-width: 800px;
+        margin-top: 180px;
+        font-size: 70px;
+        line-height: 85px;
+        padding-bottom: 200px;
+    }
+    .find-header::before{
+        top: -22%;
+        width: 50%;
+        left: 24%;
+    }
+    .find-experience-advantages .experience-advantages__img {
+        width: 36px;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .find-header {
+        font-size: 35px;
+        line-height: 40px;
+        padding-bottom: 300px;
+    }
+    .find-experience-advantages,
+    .find-header{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .find-experience-advantages{
+        margin-top: -120px;
+    }
+    .find-experience-advantages .experience-advantages__item{
+        margin: 0 auto 20px;
+        width: 100%;
+    }
+    .find-experience-advantages .experience-advantages__img {
+        width: 34px;
+        margin-bottom: 0px;
+    }
+    .find-header{
+        font-size: 25px;
+        line-height: 30px;
+        max-width: 300px;
+        padding-bottom: 250px;
+    }
+    .find-header::before {
+        top: -34%;
+        width: 98%;
+        left: 4%;
+    }
+    .find-blur-viollet,
+    .find-blur__blue,
+    .find-orange-blur,
+    .find-roles-blur{
+        width: 90%;
+    }
+    .find-blur-viollet{
+        top: 68%;
+    }
+    .find-blur__blue{
+        top: -26%;
+    }
+    .find-blur-viollet, .find-blur__blue, .find-orange-blur, .example-blur, .find-roles-blur {
+        width: 90%;
+    }
+}
