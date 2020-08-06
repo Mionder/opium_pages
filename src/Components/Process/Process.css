@@ -236,7 +236,7 @@
 
 @media(max-width: 1770px){
     .process {
-        padding-top: 85px;
+        padding-top: 98px;
     }
     .process-header{
         margin-bottom: 45px;
@@ -246,13 +246,13 @@
         line-height: 61px;
         letter-spacing: 0px;
     }
-    .process-block{
-        margin-top: 45px;
+    .process-block {
+        margin-top: 36px;
     }
     .process-block__name{
         font-size: 20px;
         line-height: 24px;
-        margin: 24px 0px;
+        margin: 20px 0px;
     }
     .process-block__description{
         font-size: 14px;
@@ -260,18 +260,20 @@
         max-width: 280px;
     }
     .process-wrap{
-        padding: 60px;
+        padding: 53px;
+    }
+    .process-block__number {
+        font-size: 18px;
     }
     .process-bottom__deliverables{
         font-size: 25px;
-        margin-bottom: 70px;
+        margin-bottom: 58px;
     }
     .process-bottom__download {
         font-size: 16px;
     }
     .process-bottom{    
-        padding-left: 60px;
-        padding-right: 60px;
+        padding: 45px 53px 20px;
     }
     .process-bottom__download-img{
         width: 18px;
@@ -284,28 +286,37 @@
         font-size: 16px;
         line-height: 26px;
         max-width: 500px;
+        margin-top: 0px;
     }
     .process-bottom__item_img {
         width: 25px;
     }
     .process-bottom__items{
-        max-width: 400px;
+        max-width: 368px;
+        margin-top: 52px;
     }
-    .process-bottom__item{
-        min-width: 160px;
+    .process-bottom__item {
+        min-width: unset;
     }
     .process-block__more{
         font-size: 16px;
+        padding-top: 24px;
     }
     .process-block__more img {
         margin-right: 5px;
         width: 30px;
     }
     .process-heart {
-        width: 30%;
-        transform: translate(0px, -120px);
-        right: 35%;
-    }    
+        width: 40%;
+        transform: translate(0px, -138px);
+        right: 25%;
+    }   
+    .process-wrap-sec {
+        padding-bottom: 21px;
+    }
+    .process-bottom-sec  .process-bottom__items{
+        max-width: 420px;
+    }
 }
 
 @media screen and (max-width: 1140px){

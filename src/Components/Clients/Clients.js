@@ -31,7 +31,7 @@ export default class Clients extends Component{
                             <span className="cliens-item__winner"><img src={reward} alt="reward" />The winner of the Best Russian Intranet Awward </span>
                         </div>
                         <div className="cliens-item">
-                            <img className="clients-item__logo" src={client4} alt="clients 4" />
+                            <img className="clients-item__logo clients-item__logo-big" src={client4} alt="clients 4" />
                             <p className="cliens-item__about">Leading Russian business software developer. Official distributor of Microsoft, Novell, Borland, and more than 100 other well-known vendors</p>
                         </div>
                         <div className="cliens-item">

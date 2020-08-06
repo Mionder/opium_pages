@@ -1,6 +1,27 @@
 .find-process-heart{
     transform: translate(0px, -160px) rotate(60deg);
 }
+@media screen and (max-width: 1770px){
+.find-process .process-wrap{
+        margin-top: 20px;
+        padding-bottom: 76px;
+    }
+    .process-heart{
+        right: 19%;
+    }
+    .find-process-heart {
+        transform: translate(0px, -194px) rotate(66deg);
+    }
+    .find-process .process-bottom{
+        padding-bottom: 30px;
+    }
+    .find-process{
+        padding-bottom: 20px;
+    }
+    .find-roles{
+        padding-bottom: 100px;
+    }
+}
 
 @media screen and (max-width: 580px){
     .find-blur-viollet, .find-blur__blue, .find-orange-blur, .example-blur, .find-roles-blur {

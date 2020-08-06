@@ -61,17 +61,24 @@
         line-height: 85px;
         max-width: 900px;
         padding-bottom: 400px;
+        margin-top: 222px;
     }
-    .team-header::before{
-        top: -27%;
-        width: 65%;
+    .team-header::before {
+        top: -38%;
+        width: 73%;
+        left: 13%;
     }
-    .team-experience-advantages{
-        width: 60%;
-        margin: -80px auto 0px;
+    .team-experience-advantages {
+        width: 72%;
+        margin: -136px auto 0px;
+        padding-bottom: 5px;
     }
-    .team-header{
-        margin-top: 200px;
+    .team-experience-advantages .experience-advantages__item:nth-child(2n) .experience-advantages__img, 
+    .team-experience-advantages .experience-advantages__item:last-child .experience-advantages__img {
+        width: 53px;
+    }
+    .team-experience-advantages .experience-advantages__item{
+        width: 24%;
     }
 }
 

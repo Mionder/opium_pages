@@ -3,6 +3,10 @@ header{
     border: 1px solid #EDEDED;
 }
 
+.active{
+    font-weight: 900;
+}
+
 .container{
     max-width: 1715px;
     margin: 0 auto;
@@ -12,8 +16,8 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 26px 0px;
-    position: relative;
     z-index: 1;
+    position: relative;
 }
 
 .header_list{
@@ -41,19 +45,23 @@ header{
     margin-top: 50px;
 }
 
-.header-left li:first-child > a{
+.header-wrapper li a{
+    outline: none;
+}
+
+.header-wrapper li > a.list-item-active{
     font-weight: 900;
     color: #2C3A5C;
     position: relative;
 }
 
-.header-left li:first-child > a::after{
+.header-wrapper li > a.list-item-active::after{
     content: '';
     position: absolute;
-    top: -16px;
-    right: -32px;
-    width: 65px;
-    height: 65px;
+    top: -10px;
+    right: -25px;
+    width: 45px;
+    height: 45px;
     background: url(./img/header-el.png) no-repeat;
     background-size: 100%;
     z-index: -1;
@@ -130,10 +138,10 @@ header{
     }
     .container{
         max-width: unset;
-        width: 85%;
+        width: 89%;
     }
     .header-left, .header-right{
-        margin-top: 25px;
+        margin-top: 17px;
     }
     .header_list a{
         font-size: 16px;
@@ -171,10 +179,10 @@ header{
         width: 25px;
         z-index: 5;
    }
-   .header-wrap-mobile input ~ nav > .header-mob-open ul a:first-child li{
+   .header-wrap-mobile input ~ nav > .header-mob-open ul li:first-child a{
        position: relative;
    }
-   .header-wrap-mobile input ~ nav > .header-mob-open ul:last-child a:first-child li::after {
+   .header-wrap-mobile input ~ nav > .header-mob-open ul:last-child li:first-child a::after {
         content: '';
         position: absolute;
         top: -16px;
@@ -250,9 +258,7 @@ header{
    .header-mob-open img{
         max-width: 60px;
    }
-    .header-wrap-mobile input ~ nav > .header-mob-open > ul > a > li,
-    .header-wrap-mobile input ~ nav > .header-mob-open > ul > li > a
-    {
+    .header-wrap-mobile input ~ nav > .header-mob-open > ul > li > a {
         text-decoration: none;
         text-transform: uppercase;
         color: rgba(44, 58, 92, 0.5);
@@ -260,7 +266,7 @@ header{
         display: block;
         padding: 25px;
    }
-   .header-wrap-mobile input ~ nav > .header-mob-open  ul  a:first-child li{
+   .header-wrap-mobile input ~ nav > .header-mob-open  ul  li:first-child a{
         font-weight: 900;
         color: #2C3A5C;
         position: relative;
@@ -285,7 +291,7 @@ header{
 }
 
 @media screen and (max-width: 580px){
-    .header-wrap-mobile input ~ nav > .header-mob-open > ul > a > li{
+    .header-wrap-mobile input ~ nav > .header-mob-open > ul > li > a{
         padding: 18px;
     }
 

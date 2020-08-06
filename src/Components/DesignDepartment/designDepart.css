@@ -73,10 +73,15 @@
     .desing-department_title{
         font-size: 70px;
         line-height: 100px;
-        padding: 15px 0px 380px;
+        padding: 8px 0px 391px;
     }
-    .design-department h5{
-        padding-top: 200px;
+    .design-department h5 {
+        padding-top: 266px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .desing-department_title::before{
+        top: -11%;
     }
     .desing-department_subtitle::before {
         top: -7%;
@@ -89,6 +94,10 @@
     .container{
         max-width: unset;
         width: 85%;
+    }
+    .design-department {
+        background-position: 0% -104%;
+        background-size: contain;
     }
 }
 @media screen and (max-width: 880px){

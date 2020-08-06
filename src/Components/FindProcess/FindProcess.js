@@ -8,7 +8,7 @@ import heart from "./img/lqal.svg";
 export default class FindProcess extends Component{
     render(){
         return(
-            <div className="process">
+            <div className="process find-process">
             <div className="viollet-blur"></div>
             <div className="blue-blur"></div>
               <div className="find-orange-blur"></div>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Experience.css";
 import advantages1 from "./img/advantages1.svg";
-import advantages2 from "./img/advantages2.svg";
+import advantages2 from "./img/86.svg";
 import advantages3 from "./img/advantages3.svg";
 export default class Experience extends Component{
     render(){ 

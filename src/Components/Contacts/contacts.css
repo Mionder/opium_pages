@@ -41,8 +41,8 @@
 
 .contacts_img{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 17px;
+    right: 21px;
     max-width: 324px;
     height: auto;
     z-index: -1;
@@ -97,7 +97,7 @@
 
 .contacts_right{
     margin-top: 56px;
-    margin-left: 143px;
+    margin-left: 117px;
     z-index: 2;
 }
 

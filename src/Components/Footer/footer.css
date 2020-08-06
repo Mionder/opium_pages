@@ -9,6 +9,8 @@ footer{
     align-items: center;
     min-height: 443px;
     max-width: 1605px;
+    z-index: 1;
+    position: relative;
 }
 
 .footer-right,

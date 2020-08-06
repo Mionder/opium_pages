@@ -118,15 +118,15 @@
 @media(max-width: 1770px){
     .experience h1{
         max-width: 800px;
-        margin-top: 180px;
+        margin-top: 211px;
         font-size: 70px;
-        line-height: 100px;
+        line-height: 89px;
         padding-bottom: 200px;
     }
     .experience h1::before {
-        top: -13%;
-        width: 45%;
-        left: 24%;
+        top: -30%;
+        width: 53%;
+        left: 20%;
         padding-bottom: 200px;
     }
     .experience-advantages__img {
@@ -139,7 +139,7 @@
         max-width: 200px;
     }
     .experience-btn{
-       margin-top: 80px;
+       margin-top: 93px;
     }
     .experience-btn__call{
         font-size: 16px;
@@ -149,7 +149,7 @@
     }
     .experience-btn__addition{
         font-size: 14px;
-        margin: 20px auto 0px;
+        margin: 28px auto 0px;
     }
     .experience-btn__addition::after {
         width: 8px;
@@ -158,10 +158,17 @@
     }
     .experience-advantages {
         max-width: unset;
-        width: 85%;
+        width: 75%;
     }
     .experience-btn__call:hover {
         font-size: 18px;
+    }
+    .experience-advantages__item:nth-child(2n) .experience-advantages__img,
+    .experience-advantages__item:last-child .experience-advantages__img{
+        width: 65px;
+    }
+    .experience-advantages{
+        margin-top: -51px;
     }
 }
 

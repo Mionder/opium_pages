@@ -6,7 +6,7 @@ import download from "./img/process-download.svg";
 export default class FindRoles extends Component{
     render(){
         return(
-            <div className="roles">
+            <div className="roles find-roles">
             <div className="find-roles-blur"></div>
             <div className="container">
                 <h3 className="roles-header">Roles</h3>

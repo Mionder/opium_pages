@@ -10,7 +10,7 @@ import YouTube from "./img/Vector.svg";
 import Instagram from "./img/Instagram.svg";
 import Medium from "./img/Medium.svg";
 import Habr from "./img/Habr.svg";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export default class Footer extends Component{
     render(){
@@ -20,14 +20,14 @@ export default class Footer extends Component{
                         <nav className="footer-wrapper">
                         <div className="footer-left">
                             <ul className="footer_content">
-                               <Link to="/mainpage"> <li className="footer_content-link"><a href="#">Main</a></li></Link>
-                               <Link to="/about"><li className="footer_content-link"><a href="#">About us</a></li></Link> 
-                               <Link to="/contacts"><li className="footer_content-link"><a href="#">Contacts</a></li></Link> 
+                                <li className="footer_content-link"><Link to="/mainpage">Main</Link></li>
+                                <li className="footer_content-link"><Link to="/about">About us</Link></li>
+                                <li className="footer_content-link"><Link to="/contacts">Contacts</Link></li>
                             </ul>
                             <ul className="footer_content">
-                                <Link to="/"><li className="footer_content-link"><a href="#">UX/UI Design</a></li></Link>
-                                <Link to="/blog-test"><li className="footer_content-link"><a href="#">Usability Testing</a></li></Link>
-                                <Link to="/blog"><li className="footer_content-link"><a href="#">Blog</a></li></Link>
+                                <li className="footer_content-link"><Link to="/">UX/UI Design</Link></li>
+                                <li className="footer_content-link"><Link to="/blog-test">Usability Testing</Link></li>
+                                <li className="footer_content-link"><Link to="/blog">Blog</Link></li>
                             </ul>
                         </div>
                         <div className="footer-right">

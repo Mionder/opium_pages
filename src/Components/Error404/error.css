@@ -13,13 +13,14 @@
 
 .error404_block{
     position: relative;
+    margin-top: -47px;
 }
 
 .error_label{
     color: #5B24B3;
     font-weight: 900;
     font-size: 240px;
-    line-height: 293px;
+    line-height: 255px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-family: Montserrat;
@@ -30,7 +31,7 @@
     width: 273px;
     height: auto;
     left: 135px;
-    bottom: 70px;
+    bottom: 60px;
 }
 
 .error_subtitle{
@@ -87,9 +88,12 @@
     position: absolute;
     top: 0px;
     right: 0px;
+    z-index: -1;
 }
 
-
+.error404 .footer-wrapper{
+    min-height: 300px;
+}
 @media screen and (max-width: 525px){
     .error_label{
         font-family: Montserrat;

@@ -77,7 +77,7 @@
 
 @media(max-width: 1770px){
     .cliens{
-        margin-top: 180px;
+        margin-top: 190px;
         padding-top: 100px;
     }
     .cliens-finished{
@@ -90,8 +90,8 @@
         width: 580px;
     }
     .cliens-addition {
-        margin: 20px 0px 80px;
-        font-size: 21px;
+        margin: 20px 0px 71px;
+        font-size: 20px;
     }
     .clients-item__logo {
         width: 55px;
@@ -100,7 +100,7 @@
     .cliens-item__about{
         font-size: 16px;
         line-height: 20px;
-        max-width: 350px;
+        max-width: 323px;
         margin-bottom: 20px;
     }
     .cliens-item__winner img{
@@ -108,11 +108,18 @@
     }
     .cliens-item__winner{
         font-size: 13px;
-        line-height: 18px;
+        line-height: 21px;
         max-width: 235px;
     }
     .cliens-item{
-        margin-bottom: 50px;
+        margin-bottom: 85px;
+    }
+    .clients-item__logo-big{
+        width: 80px;
+    }
+    .cliens-item:last-child .clients-item__logo{
+        width: 90px;
+        height: 102px;
     }
 }
 
@@ -121,7 +128,7 @@
         justify-content: space-between;
     }
     .cliens-item {
-        width: 28%;
+        width: 32%;
     }
 }
 

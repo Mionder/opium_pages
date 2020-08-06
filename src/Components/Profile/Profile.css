@@ -137,13 +137,15 @@
     .profile-block__more {
         margin-top: 20px;
         font-size: 20px;
-        line-height: 26px;
+        line-height: 32px;
+        max-width: 330px;
     }
     .profile-block__link{
         font-size: 16px;
         height: 62px;
         width: 353px;
         padding: 22px 0px;
+        margin-top: 35px;
     }
     .profile-block__link:hover{
         font-size: 18px;
@@ -163,10 +165,16 @@
     }
     .profile::after{
         bottom: -87%;
-        width: 532px;
+        width: 482px;
     }
     .profile-block{
-        padding-left: 60px;
+        padding: 0px 0px 63px 49px;
+    }
+    .profile{
+        padding-top: 96px;
+    }
+    .profile-block__info {
+        padding-top: 81px;
     }
 }
 
@@ -176,14 +184,11 @@
         left: 86px;
     }
     .profile-block__photo_second {
-        left: -37px;
-        width: 166px;
+        left: -59px;
+        width: 208px;
     }
     .profile-block__photo_third {
         left: -114px;
-    }
-    .profile-block__photo{
-       margin-top: 60px;
     }
     .profile-block__info{
         width: 32%;
@@ -240,6 +245,9 @@
         text-align: center;
         font-weight: 600;
         transition: 0.3s;
+    }
+    .profile-block{
+        padding: 63px;
     }
 }
 

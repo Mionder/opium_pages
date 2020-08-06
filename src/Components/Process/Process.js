@@ -80,7 +80,7 @@ export default class Process extends Component{
                     </div>
                     </div>
                 </div>
-                <div className="process-bottom">
+                <div className="process-bottom process-bottom-sec">
                     <div className="process-bottom__left">
                         <h3 className="process-bottom__deliverables"> Deliverables </h3>
                         <a className="process-bottom__download process-bottom__download_des" href="#"><img className="process-bottom__download-img" src={processdownload} alt="download icon" /> download</a>

@@ -65,11 +65,15 @@
         font-size: 50px;
         line-height: 61px;
     }
+    .roles {
+        padding-top: 122px;
+        margin-bottom: -155px;
+    }
     .roles-wrap {
         margin-top: 80px;
     }
     .roles-item{
-        margin-bottom: 80px;
+        margin-bottom: 100px;
     }
     .roles-item__post{
         font-size: 20px;
@@ -141,5 +145,8 @@
     }
     .roles-item__decs{
         max-width: unset;
+    }
+    .roles{
+        margin-bottom: 0px;
     }
 }

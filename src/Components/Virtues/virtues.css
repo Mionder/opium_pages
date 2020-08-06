@@ -111,21 +111,29 @@
 
 @media(max-width: 1770px){
     .virtues-wrapper{
-        margin-top: 135px;
+        margin-top: 0px;
     }
     .virtues-block_title{
         font-size: 35px;
-        margin-top: 40px;
+        margin-top: 35px;
     }
-    .virtues-block_subtitle{
+    .virtues-block_subtitle {
         font-size: 20px;
-        margin-top: 40px;
+        margin-top: 36px;
+        max-width: 384px;
+        line-height: 25px;
     }
     .virtues-block_img{
-        width: 40px;
+        width: 46px;
     }
     .virtues-block {
-        padding: 35px 60px 60px;
+        padding: 53px 37px 86px;
+    }
+    .virtues-block:first-child h3::before,
+    .virtues-block:last-child h3::before {
+        top: 20px;
+        left: -57px;
+        width: 43px;
     }
 }
 

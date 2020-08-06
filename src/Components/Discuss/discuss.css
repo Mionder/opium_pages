@@ -66,19 +66,21 @@
     }
     .discuss-left_subtitle {
         font-size: 20px;
-        line-height: 42px;
-        margin-top: 20px;
-        max-width: 400px;
+        line-height: 30px;
+        color: #505050;
+        margin-top: 28px;
+        max-width: 345px;
     }
     .discuss-right{
         transform: translate(117px, -240px);
     }
-    .discuss-left_link{
+    .discuss-left_link {
         font-size: 16px;
-        padding: 20px 68px;
-        width: 300px;
+        padding: 22px 22px;
+        width: 259px;
         height: 60px;
         text-align: center;
+        margin-top: 33px;
         transition: 0.3s;
     }
     .discuss-left_link:hover{
@@ -86,24 +88,26 @@
         font-weight: 700;
         transition: 0.3s;
     }
-    .discuss-right img{
-        width: 535px;
+    .discuss-right img {
+        width: 605px;
     }
     .discuss-wrap{
         max-height: 550px;
         padding-top: 90px;
         max-width: unset;
         width: 85%;
+        padding-left: 68px;
+        padding-top: 62px;
+        max-height: 425px;
+    }
+    footer{
+        padding-top: 51px !important;
     }
 }
-
 @media(max-width: 1340px){
-    .discuss-wrap{
-        padding-left: 60px;
-    }
     .discuss-right {
-        transform: translate(-100px, -237px);
-        width: 45%;
+        transform: translate(-86px, -250px) scale(1.1);
+        width: 52%;
     }
     .discuss-wrap {
         padding-bottom: 0px;
@@ -114,6 +118,9 @@
     .discuss-left_title {
         font-size: 42px;
         line-height: 48px;
+    }
+    footer{
+        padding-top: 160px !important;
     }
     .discuss-right img{
         width: 100%;

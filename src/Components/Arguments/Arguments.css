@@ -116,11 +116,19 @@
     .arguments h4{
         font-size: 35px;
         line-height: 43px;
-        margin-bottom: 40px;
+        margin-bottom: 47px;
+    }
+    .arguments-need,
+    .arguments-dont{
+        padding: 11px 0px;
     }
     .arguments li{
         font-size: 14px;
         line-height: 26px;
+        margin-bottom: 18px;
+    }
+    .arguments-dont a{
+        margin-top: 17px;
     }
     .arguments img{
         width: 30px;
