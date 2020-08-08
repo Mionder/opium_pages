@@ -126,6 +126,10 @@
 }
 
 @media(max-width: 1770px){
+    .profile-block__photo {
+        width: 64%;
+        transform: scale(1.2);
+    }
     .profile-block__be{
         font-size: 45px;
     }
@@ -194,7 +198,8 @@
         width: 32%;
     }
     .profile-block__photo {
-        width: 63%;
+        width: 64%;
+        transform: translateY(43px) scale(1.2);
     }
 }
 
@@ -212,8 +217,9 @@
         max-width: 600px;
     }
     .profile-block__photo {
-        width: 100%;
+        width: 95%;
         margin-top: 20px;
+        transform: translate(51px, -21px) scale(1.2);
     }
     .profile-block__photo_first{
         left: 0px;
@@ -327,6 +333,11 @@
     .profile-block__more{
         margin-top: 30px;
         line-height: 30px;
+    }
+    .profile-block__photo {
+        width: 79%;
+        margin-top: 20px;
+        transform: translate(38px, -5px) scale(1.2);
     }
 }
 

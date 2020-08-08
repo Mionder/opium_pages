@@ -138,7 +138,7 @@
         width: 255px;
         height: 62px;
         padding: 12px;
-        z-index: 9999;
+        z-index: 1;
     }
     .arguments-dont a:hover{
         font-size: 18px;

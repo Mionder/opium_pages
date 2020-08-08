@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Brain from "./img/brain.png";
@@ -17,7 +18,7 @@ export default class Error404 extends Component{
                             <img src={Brain} class="brain_img" alt="Brain"/>
                         </div>
                         <p className="error_subtitle">Sorry, this page is not found</p>
-                        <a href="#" className="error_button">Return to homepage</a>
+                        <Link to="/" className="error_button">Return to homepage</Link>
                     </div>
                 </div>
                 <Footer />

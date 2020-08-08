@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from "react-router-dom";
 import "./blog.css";
 import heartImg from "./img/11.png";
 import moreInfo from "./img/more.png";
@@ -10,12 +11,12 @@ export default class Blog extends Component{
                     <div className="blog-head">
                         <h2 className="blog-title">Blog</h2>
                         <img className="blog-heart" src={heartImg} alt="blog" />
-                        <a className="see-all" href="#"><span className="see_all-icon">see all</span>                        
+                        <Link className="see-all" to="/blog"><span className="see_all-icon">see all</span>                        
                             {/* <img src={moreInfo} alt=""/> */}
                             <svg  width="35" height="18" viewBox="0 0 35 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0.5 9H33.5M33.5 9L25.5 1M33.5 9L25.5 17" stroke="#5B24B3" stroke-width="2"/>
                             </svg>
-                        </a>
+                        </Link>
                     </div>
                     <div className="blog-cards">
                         <a href="#" className="blog-cards_item">

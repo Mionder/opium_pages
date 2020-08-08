@@ -26,7 +26,7 @@ export default class Footer extends Component{
                             </ul>
                             <ul className="footer_content">
                                 <li className="footer_content-link"><Link to="/">UX/UI Design</Link></li>
-                                <li className="footer_content-link"><Link to="/blog-test">Usability Testing</Link></li>
+                                <li className="footer_content-link"><Link to="/find">Usability Testing</Link></li>
                                 <li className="footer_content-link"><Link to="/blog">Blog</Link></li>
                             </ul>
                         </div>
@@ -58,8 +58,7 @@ export default class Footer extends Component{
                                 <li className="footer_content-title">Follow us</li>
                                 <li className="footer_content-link fw">
                                     <img src={Behance} className="footer_content-logo" alt="no-logo"/>
-
-                                    <a href="#">Behance</a>
+<a href="#">Behance</a>
                                 </li>
                                 <li className="footer_content-link fw">
                                     <img src={YouTube} className="footer_content-logo" alt="no-logo"/>                                                            
@@ -80,7 +79,7 @@ export default class Footer extends Component{
                             </ul>
                         </div>
                     </nav>
-                    <p className="footer_quote">© Every time you brake copyright rules, <span> Hitler becomes more alive</span></p>
+                    <p className="footer_quote">:copyright: Every time you brake copyright rules, <span> Hitler becomes more alive</span></p>
                 </div>
             </footer>
         )

@@ -13,8 +13,8 @@ export default class BlogPage extends Component{
                 <div className="container">
                         <h2 className="blog_page-title">Blog</h2>
                     <div className="blog_page_wrapper">
-                        <div className="blog_page-item">
-                            <div class="blog_page-item-img blog_page-item-first">
+                        <a href="#" className="blog_page-item">
+                        <div className="blog_page-item-img blog_page-item-first">
                             </div>
                             <div className="blog_page-text_block">
                                 <h3 className="blog_page-item_title">UX-research of an Online Banking App: our experience, mistakes and discoveries</h3>
@@ -32,8 +32,8 @@ export default class BlogPage extends Component{
                                     <p className="blog_page-publication_date">May 24. 2020</p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="blog_page-item">
+                        </a>
+                        <a href="#" className="blog_page-item">
                             <div class="blog_page-item-img blog_page-item-second">
                             </div>
                             <div className="blog_page-text_block">
@@ -52,8 +52,8 @@ export default class BlogPage extends Component{
                                     <p className="blog_page-publication_date">May 24. 2020</p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="blog_page-item">
+                        </a>
+                        <a className="blog_page-item">
                            <div class="blog_page-item-img blog_page-item-third">
                            </div>
                             <div className="blog_page-text_block">
@@ -72,7 +72,7 @@ export default class BlogPage extends Component{
                                     <p className="blog_page-publication_date">May 24. 2020</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div className="blog_page-blue-bl"></div>
                 </div>

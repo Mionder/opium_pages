@@ -9,8 +9,6 @@ footer{
     align-items: center;
     min-height: 443px;
     max-width: 1605px;
-    z-index: 1;
-    position: relative;
 }
 
 .footer-right,
@@ -136,6 +134,17 @@ footer{
     .footer-right{
         margin-top: 30px;
     }
+    .footer-left,
+    .footer-right{
+        flex-direction: column;
+    }
+    .footer_content {
+        width: 85%;
+    }
+    .footer-wrapper{
+        margin-top: 0px;
+    }
+    
 }
 
 @media screen and (max-width: 400px){
@@ -143,14 +152,8 @@ footer{
         width: 15px !important;
         padding-right: 3px;
     }
-    .footer-left .footer_content:first-child{
-        margin-right: 50px;
-    }
     .footer_content-link a,
     .footer_quote{
         font-size: 14px;
-    }
-    .footer-right .footer_content:first-child{
-        width: 68%;
     }
 }

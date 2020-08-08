@@ -1,11 +1,106 @@
 .design-department{
-    background: url(./img/design-dep.png) no-repeat;
+    /* background: url(./img/design-dep.png) no-repeat; */
     background-size: cover;
     text-align: center;
     background-position: 0% 35%;
 }
 
+.desing-department_title{
+    display: none;
+}
+
+.desing-department_subtitle-fs{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 85px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+
+.design-depart-fs{
+    padding: 10px 0px 391px;
+    position: relative;
+}
+
+.desing-department_title-fs{
+    padding: 10px 0px 391px;
+    /* margin-top: 300px; */
+    transform: translateY(353px);
+}
+
+.design-depart-fs.open{
+    background: url(./img/design-dep.png) no-repeat; 
+    background-size: 0%;
+    text-align: center;
+    /* background-position: 0% 35%; */
+    background-position: center;
+    -webkit-transition: all 1s ease-out;
+}
+
+.design-depart-fs.open.big{
+    background-size: 100%;
+    background-position: 0% 0%;
+    /* transform: translateY(60px);
+    -webkit-transform: translateY(60px);
+    -moz-transform:translateY(60px);
+    -o-transform: translateY(60px); */
+}
+.design-depart-fs.open::after{
+    opacity: 0;
+    visibility: hidden;
+    transition: .55s opacity, .55s visibility;
+}
+
+.design-depart-fs::after{
+    content: "";
+    position: absolute;
+    top: 19%;
+    right: 35%;
+    width: 31%;
+    height: 100%;
+    background: url(/static/media/fs.5d487ffe.svg) no-repeat;
+    background-size: 100%;
+    z-index: -1;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+
+
+.design-depart-fs.timeout::after{
+    transform: scale(1.3) translateY(60px);
+    -webkit-transform: scale(1.3) translateY(60px);
+    -moz-transform: scale(1.3) translateY(60px);
+    -o-transform: scale(1.3) translateY(60px);
+}
+
+.desing-department_title-fs span{
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 120px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 3px #111111;
+    padding: 15px 0px 11px;
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    transition: .55s opacity, .55s visibility;
+}
+
+.desing-department_title-fs span.open{
+    opacity: 1;
+    visibility: visible;
+}
+
 .design-department h5{
+    display: none;
     font-weight: bold;
     font-size: 36px;
     line-height: 38px;
@@ -26,6 +121,27 @@
     position: relative;
 }
 
+.desing-department_title-fs::before{
+    content: '';
+    position: absolute;
+    top: -11%;
+    right: 58%;
+    background: url(./img/design-circle.png) no-repeat;
+    background-size: 100%;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    -webkit-transition: all 1s ease-out;
+}
+
+.desing-department_title-fs.next::before{
+    width: 20%;
+    transform: scale(1.3) translateY(60px);
+    -webkit-transform: scale(1.3) translateY(60px);
+    -moz-transform: scale(1.3) translateY(60px);
+    -o-transform: scale(1.3) translateY(60px);
+}
+
 .desing-department_title::before{
     content: '';
     position: absolute;
@@ -36,12 +152,40 @@
     width: 28%;
     height: 100%;
     z-index: -1;
+    
 }
 
 .desing-department_subtitle{
     color: #000000;
     position: relative;
     text-align: center;
+}
+.desing-department_subtitle-fs{
+    position: relative;
+}
+
+.desing-department_subtitle-fs.open::before{
+    content: '';
+    position: absolute;
+    top: -14%;
+    background: url(./img/up.png) no-repeat;
+    background-size: 100%;
+    width: 857px;
+    height: 100%;
+}
+
+.desing-department_subtitle-fs.open::after{
+    content: '';
+    position: absolute;
+    background: url(./img/down.png) no-repeat;
+    background-size: 100%;
+    width: 857px;
+    top: 85%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
 }
 
 .desing-department_subtitle::before{
@@ -99,6 +243,21 @@
         background-position: 0% -104%;
         background-size: contain;
     }
+    .desing-department_title {
+        -webkit-text-stroke: 2px #111111;
+    }
+}
+
+@media(max-width: 1580px){
+    .design-depart-fs {
+        padding: 10px 0px 91px;
+    }
+    .desing-department_title-fs{
+        transform: translateY(200px);
+    }
+    .desing-department_title-fs span{
+        -webkit-text-stroke: 2px #111111;
+    }
 }
 @media screen and (max-width: 880px){
     .desing-department_title {
@@ -124,9 +283,53 @@
     .desing-department_subtitle::after{
         display: none;
     }
+    .desing-department_subtitle-fs,
+    .desing-department_title-fs span{
+        font-size: 42px;
+    }
+    .desing-department_title-fs::before{
+        top: 5%;
+    }
+    .desing-department_subtitle-fs.open::before {
+        top: -78%;
+        width: 514px;
+    }
+    .desing-department_subtitle-fs.open::after {
+        width: 512px;
+        top: 116%;
+    }
+    .desing-department_subtitle-fs{
+        line-height: 24px;
+    }
+    .design-depart-fs::after{
+        top: 25%;
+    }
+    .desing-department_title-fs{
+        padding-bottom: 160px;
+    }
+    .desing-department_title-fs {
+        transform: translateY(100px);
+    }
 }
 
 @media screen and (max-width: 580px){
+    .desing-department_subtitle-fs.open::before,
+    .desing-department_subtitle-fs.open::after {
+        display: none;
+    }
+    .desing-department_title-fs{
+        padding-bottom: 100px;
+    }
+    .desing-department_title-fs span{
+        padding: 0px;
+    }
+    .desing-department_subtitle-fs, .desing-department_title-fs span {
+        font-size: 32px;
+        line-height: 37px;
+    }
+    .desing-department_title-fs::before {
+        top: -31%;
+    }
     .desing-department_title{
         padding: 0px 0px 100px;
     }
@@ -141,5 +344,17 @@
     .desing-department_title {
         font-size: 37px;
         line-height: 54px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .desing-department_title-fs {
+        transform: translateY(50x);
+    }
+    .desing-department_title-fs {
+        padding-bottom: 27px;
+    }
+    .design-depart-fs.open.big {
+        background-size: 146%;
     }
 }

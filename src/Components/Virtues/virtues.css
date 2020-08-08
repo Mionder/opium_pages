@@ -4,17 +4,20 @@
 
 .virtues .virtues-block{
     display: inline-block;
+    border-left: 8px solid transparent;
     z-index: 99;
     transition: 0.3s;
 }
 
 .virtues .virtues-block:first-child:hover {
     border-left: 8px solid #5b25b3;
+    outline: 1px solid rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
 
 .virtues .virtues-block:last-child:hover {
     border-left: 8px solid #f55345;
+    outline: 1px solid rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
 
@@ -37,6 +40,7 @@
 
 .virtues-block_img{
     width: 60px;
+    transition: 0.3s;
 }
 
 .virtues-block_title{
@@ -60,7 +64,7 @@
     content: '';
     position: absolute;
     top: 18px;
-    left: -87px;
+    left: -97px;
     width: 60px;
     height: 5px;
     background-color: #5b25b3;
@@ -71,7 +75,7 @@
     content: '';
     position: absolute;
     top: 18px;
-    left: -87px;
+    left: -97px;
     width: 60px;
     height: 5px;
     background-color: #f55345;
@@ -104,7 +108,7 @@
 
 .virtues-block{
     background: rgba(255, 255, 255, 0.3);
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: 1px solid rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(60px);
     width: 49%
 }
@@ -132,7 +136,7 @@
     .virtues-block:first-child h3::before,
     .virtues-block:last-child h3::before {
         top: 20px;
-        left: -57px;
+        left: -64px;
         width: 43px;
     }
 }
