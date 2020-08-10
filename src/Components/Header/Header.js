@@ -13,7 +13,7 @@ export default class Header extends Component{
             case "find":
                 currentPage = 1;
                 break;
-            case "":
+            case "ux-ui":
                 currentPage = 0;
                 break;
             case "blog": 
@@ -47,7 +47,7 @@ export default class Header extends Component{
                         <div className="header-wrapper header-desktop">
                             <div className="header-left">
                                 <ul className="header_list">
-                                    <li><Link to="/" activeclassname='active' className="list-item list-item-active">UX/UI Design</Link></li>
+                                    <li><Link to="/ux-ui" activeclassname='active' className="list-item list-item-active">UX/UI Design</Link></li>
                                     <li><Link to="/find" activeclassname='active' className="list-item">Usability Testing</Link></li>
                                     <li><Link to="/blog" activeclassname='active' className="list-item">Blog</Link></li>
                                 </ul>
@@ -86,10 +86,10 @@ export default class Header extends Component{
                             <nav>
 <div className="header-mob-open">
                                 <ul>
-                                    <li><Link to="/mainpage"><img src={headerLogo} alt="logo"/></Link></li>
+                                    <li><Link to="/"><img src={headerLogo} alt="logo"/></Link></li>
                                 </ul>
                                 <ul>
-                                    <li><Link to="/">UX/UI Design</Link></li>
+                                    <li><Link to="/ux-ui">UX/UI Design</Link></li>
                                     <li><Link to="/find">Usability Testing</Link></li>
                                     <li><Link to="/blog" >Blog</Link></li>
                                     <li><Link to="/about" >About us</Link></li>

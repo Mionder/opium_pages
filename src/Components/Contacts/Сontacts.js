@@ -15,10 +15,10 @@ export default class Contacts extends Component{
                 <div className="container">
                     <div className="contacts_wrapper">
                         <div className="contacts_left">
-                            <img src={Light} alt="LightBulb" class="contacts_img"/>
+                            <img src={Light} alt="LightBulb" className="contacts_img"/>
                             <h2 className="contacts_title">Contacts</h2>
                             <input type="mail" placeholder="Enter your e-mail" className="contacts_left-mail"/>
-                            <textarea name="" placeholder="Text" class="contacts_left-info" id="" cols="30" rows="10"></textarea>
+                            <textarea name="" placeholder="Text" className="contacts_left-info" id="" cols="30" rows="10"></textarea>
                             <button className="contacts_left_button">Send</button>
                         </div>
                         <div className="contacts_right">

@@ -9,6 +9,15 @@
     display: none;
 }
 
+.design-depart-fs h4{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 430px;
+    z-index: 99999;
+}
+
 .desing-department_subtitle-fs{
     font-style: normal;
     font-weight: 900;
@@ -29,8 +38,7 @@
 
 .desing-department_title-fs{
     padding: 10px 0px 391px;
-    /* margin-top: 300px; */
-    transform: translateY(353px);
+    transform: translateY(20px);
 }
 
 .design-depart-fs.open{
@@ -63,7 +71,7 @@
     right: 35%;
     width: 31%;
     height: 100%;
-    background: url(/static/media/fs.5d487ffe.svg) no-repeat;
+    background: url(./img/fs.svg) no-repeat;
     background-size: 100%;
     z-index: -1;
     -moz-transition: all 1s ease-out;
@@ -252,11 +260,20 @@
     .design-depart-fs {
         padding: 10px 0px 91px;
     }
-    .desing-department_title-fs{
-        transform: translateY(200px);
-    }
     .desing-department_title-fs span{
         -webkit-text-stroke: 2px #111111;
+    }
+    .design-depart-fs h4{
+        padding-top: 200px;
+    }
+    .desing-department_title-fs::before{
+        top: 6%;
+    }
+    .desing-department_title-fs span{
+        line-height: 78px;
+    }
+    .desing-department_subtitle-fs{
+        margin: 40px 0px;
     }
 }
 @media screen and (max-width: 880px){
@@ -264,6 +281,9 @@
         font-size: 46px;
         line-height: 76px;
         padding-top: 0px;
+    }
+    .desing-department_subtitle-fs{
+        margin: 10px 0px;
     }
     .design-department h5{
         font-size: 22px;
@@ -305,10 +325,11 @@
         top: 25%;
     }
     .desing-department_title-fs{
-        padding-bottom: 160px;
+        padding-bottom: 40px;
+        transform: translateY(0px);
     }
-    .desing-department_title-fs {
-        transform: translateY(100px);
+    .design-depart-fs h4{
+        font-size: 24px;
     }
 }
 
@@ -316,6 +337,9 @@
     .desing-department_subtitle-fs.open::before,
     .desing-department_subtitle-fs.open::after {
         display: none;
+    }
+    .design-depart-fs {
+        padding: 10px 0px 30px;
     }
     .desing-department_title-fs{
         padding-bottom: 100px;
@@ -329,6 +353,9 @@
     }
     .desing-department_title-fs::before {
         top: -31%;
+    }
+    .desing-department_title-fs::before {
+        top: -10%;
     }
     .desing-department_title{
         padding: 0px 0px 100px;
@@ -344,6 +371,16 @@
     .desing-department_title {
         font-size: 37px;
         line-height: 54px;
+    }
+    .design-depart-fs h4 {
+        padding-top:60px;
+    }
+    .virtues-wrapper {
+        margin-top: 0px;
+    }
+    .design-depart-fs h4 {
+        font-size: 16px;
+        line-height: 24px;
     }
 }
 

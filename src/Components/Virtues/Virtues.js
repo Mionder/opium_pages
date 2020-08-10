@@ -11,7 +11,7 @@ export default class Virtues extends Component{
                 <div className="virtues-viollet-blur"></div>
                 <div className="container">
                     <div className="virtues-wrapper">
-                        <Link to="/" className="virtues-block">
+                        <Link to="/ux-ui" className="virtues-block">
                             <img className="virtues-block_img" src={virtue1} alt="UX/UI Design" />
                             <h3 className="virtues-block_title">UX/UI Design</h3>
                             <p className="virtues-block_subtitle">8 years experience with big brojects</p>

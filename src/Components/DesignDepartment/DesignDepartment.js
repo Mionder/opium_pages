@@ -28,12 +28,8 @@ export default class DesignDepartment extends Component{
         return(
             <div className="design-department">
                 <h5>Opium Pro</h5>
-                {/* <h1 className="desing-department_title">
-                    External
-                    <p className="desing-department_subtitle">design department</p>
-                    For your IT-company
-                </h1> */}
-                <div class="design-depart-fs">
+                <div className="design-depart-fs">
+                    <h4>Opium Pro</h4>
                     <h1 className="desing-department_title-fs">
                         <span>External</span>
                         <p className="desing-department_subtitle-fs">design department</p>

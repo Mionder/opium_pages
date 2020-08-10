@@ -20,12 +20,12 @@ export default class Footer extends Component{
                         <nav className="footer-wrapper">
                         <div className="footer-left">
                             <ul className="footer_content">
-                                <li className="footer_content-link"><Link to="/mainpage">Main</Link></li>
+                                <li className="footer_content-link"><Link to="/">Main</Link></li>
                                 <li className="footer_content-link"><Link to="/about">About us</Link></li>
                                 <li className="footer_content-link"><Link to="/contacts">Contacts</Link></li>
                             </ul>
                             <ul className="footer_content">
-                                <li className="footer_content-link"><Link to="/">UX/UI Design</Link></li>
+                                <li className="footer_content-link"><Link to="/ux-ui">UX/UI Design</Link></li>
                                 <li className="footer_content-link"><Link to="/find">Usability Testing</Link></li>
                                 <li className="footer_content-link"><Link to="/blog">Blog</Link></li>
                             </ul>
@@ -79,7 +79,7 @@ export default class Footer extends Component{
                             </ul>
                         </div>
                     </nav>
-                    <p className="footer_quote">:copyright: Every time you brake copyright rules, <span> Hitler becomes more alive</span></p>
+                    <p className="footer_quote">© Every time you break copyright rules, Hitler becomes more alive</p>
                 </div>
             </footer>
         )
